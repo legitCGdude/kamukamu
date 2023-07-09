@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Font11;
+    src: url(/assets/fonts/font11.ttf);
+}
+@font-face {
+    font-family: Font12;
+    src: url(/assets/fonts/font12.ttf);
+}
+@font-face {
+    font-family: Font21;
+    src: url(/assets/fonts/font21.ttf);
+}
+@font-face {
+    font-family: Font22;
+    src: url(/assets/fonts/font22.ttf);
+}
+
+/* RESETS */
+*{
+    font-family: Font11, sans-serif;
+    font-size: 1.1rem;
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font: 1.4rem Font21, serif;
+}
